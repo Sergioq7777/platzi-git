@@ -43,6 +43,7 @@ Conclusión: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendi
 
 ////////////
 
+git commit -am "Works when you have already made an add . in order to make it faster."
 
 
 
