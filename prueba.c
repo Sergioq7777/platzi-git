@@ -29,17 +29,18 @@ int fibonacci(){
 
 int main()
 {
-    int a, resultado;
+    int a, resultado, i;
     printf("Digita un numero: ");
     scanf("%d", &a);
     resultado = factorial(a);
 
     printf("El resultado factorizacion %d \n", resultado);
     
-    for (int i = 0; i < a; i++)
+    for (i = 0; i < a; i++)
     {
         printf("El resultado fibonacci %d \n", fibonacci());
     }
+    printf("%d", i);
     return 0;
 }
 
