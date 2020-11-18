@@ -14,14 +14,32 @@ int factorial(int n){
     
 }
 
+int inicial = 0;
+int inicial2 = 1;
+int generado = 0;
+
+int fibonacci(){
+
+    generado = inicial + inicial2;
+    inicial = inicial2;
+    inicial2 = generado;
+
+    return generado;    
+}
+
 int main()
 {
     int a, resultado;
     printf("Digita un numero: ");
     scanf("%d", &a);
     resultado = factorial(a);
-    printf("El resultado es %d \n", resultado);
 
+    printf("El resultado factorizacion %d \n", resultado);
+    
+    for (int i = 0; i < a; i++)
+    {
+        printf("El resultado fibonacci %d \n", fibonacci());
+    }
     return 0;
 }
 

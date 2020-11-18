@@ -45,6 +45,16 @@ Conclusión: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendi
 
 git commit -am "Works when you have already made an add . in order to make it faster."
 
+git log : to watch the commits
+
+git status : to watch the status
+
+git show : To view the last changes
+
+git branch "Nameofthebranch": To Create a branch 
+
+git checkout "Nameofthebranch" : To change the current branch
+
 
 
 
